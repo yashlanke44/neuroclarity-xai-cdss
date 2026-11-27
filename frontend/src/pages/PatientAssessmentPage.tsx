@@ -33,7 +33,7 @@ export const PatientAssessmentPage: React.FC = () => {
   // Form State
   const [formData, setFormData] = useState({
     // Step 0: Study Info
-    study_id: `NC-${Math.floor(1000 + Math.random() * 9000)}`,
+    study_id: `AD-${Math.floor(1000 + Math.random() * 9000)}`,
     hospital_reg: `HR-${Math.floor(10000 + Math.random() * 90000)}`,
     enrollment_date: new Date().toISOString().split('T')[0],
     investigator: 'Dr. Clinical Lead, MD',

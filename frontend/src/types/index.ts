@@ -64,6 +64,7 @@ export interface Patient {
   adherence_pct?: number;
   adr_occurred?: number;
   adr_severity?: string;
+  adr_reaction?: string;
   naranjo_score?: number;
   naranjo_class?: string;
   notes?: string;

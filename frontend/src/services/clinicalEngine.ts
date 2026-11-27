@@ -362,7 +362,7 @@ export const EdgeClinicalEngine = {
   },
 
   createPatient: async (patient: Partial<Patient>) => {
-    const nextId = `NC-${String(patientsData.length + 1).padStart(4, '0')}`;
+    const nextId = `AD-${String(patientsData.length + 1).padStart(4, '0')}`;
     const newPt: Patient = {
       id: nextId,
       patient_id: nextId,
